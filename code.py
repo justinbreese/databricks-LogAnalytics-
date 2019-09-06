@@ -6,7 +6,7 @@ import hmac
 import base64
 import datetime
 
-workspace_id = 'a1fe7441-13ff-4972-9786-57569e1e133a'
+workspace_id = 'blah-blah-blah' #change this out to your workspace ID
 shared_key = dbutils.secrets.get('msft-keys', 'la-shared-key')
 log_type = 'MyDatabricksApplication'
 
