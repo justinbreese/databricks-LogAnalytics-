@@ -66,7 +66,7 @@ def post_data(customer_id, shared_key, body, log_type):
     else:
         print("Response code: {}".format(response.status_code))
         
-
+#sample calls 
 
 def log_message(log_level, message):
   messages = [build_log_message()]
